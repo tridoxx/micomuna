@@ -35,9 +35,9 @@ personas de la comuna, y público interesado
 
  
 
-Posibles opciones:  
+Posibles opciones:
 
-Inicio, llamar a cuadrante, telefonos de emergencia , ubicar cuadrante 
+llamar a cuadrante, telefonos de emergencia , ubicar cuadrante 
 
  
  
