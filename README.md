@@ -52,6 +52,12 @@ En conclusión, existen paginas informativas, pero no se centran en todos los ba
 Objetivo General
 Desarrollar un foro/web capaz de mantener informado en tiempo real los sucesos actuales que están pasando en las comunas del área metropolitana con información suministrada por parte de los cuadrantes de cada barrio
 
+Objetivos específicos
+1) recolección de información acerca de las comunas: como están divididas, sus barrios, sus organismos públicos dentro de esta
+2) maquetación del sitio web así como sus distribución, tecnología y características a implementar (front end)
+3) generar basado en la información recolectada en las comunas estimados de la infraestructura que se utilizara, motores de bases de datos, administración del sitio web(back end)
+4)desarrollo y despliegue del sitio web e información a la comunidad
+5)planeación para una futura escalabilidad con nuevas características 
 
 
 
