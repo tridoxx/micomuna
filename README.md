@@ -59,8 +59,19 @@ Objetivos específicos
 4)desarrollo y despliegue del sitio web e información a la comunidad
 5)planeación para una futura escalabilidad con nuevas características 
 
+mockups: 
+https://www.figma.com/file/60N2oQ5CSrTTQIoq12gfVB/micomuna 
 
 
 
- 
+descrpcion de la aplicación:
+
+ La aplicación es un medio de comunicación entre las entidades de seguridad publica, cuerpos de emergencia y prestadores de servicios a nivel metropolitano.
+
+Las personas se registran en la aplicación con unos detalles tales como sus datos básicos, datos de contacto, documento de identidad y sector al que pertenece, y así estos cuerpos de emergencia poder informar a la comunidad en la que pertenece sobre lo que puede estar ocurriendo en el barrio y puede ser importante para la comunidad, ejemplo: se perdió una persona, se robaron un vehículo, se va a ir el agua en el sector, hay un incendio etc..
+
+el rol de las personas es de observadores ya que esto solo sera información oficial por parte de las entidades publicas para informar y estas solo podrán visualizar y compartir estas noticias, aparte de tener más secciones como 1) poder pedir una llamada a la policía del cuadrante 2) ver los teléfonos de emergencia 3)ubicar el cuadrante o mejor conocido como caí etc.
+
+
+el rol de los cuerpos de salud es informar y mantener actualizado a las personas de la comuna sobre novedades en esta. 
  
