@@ -1,5 +1,4 @@
-#Micomuna
-Repositorio para el planeamiento,desarrollo y despliegue del sitio web mi comuna
+**#Micomuna : Repositorio para el planeamiento,desarrollo y despliegue del sitio web mi comuna**
 
 ########################################################################################
  
