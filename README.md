@@ -12,36 +12,36 @@ Julian Camilo Hoyos
 ##########################################################################################
  
 
-Necesidad: 
+**Necesidad: 
 
 Hoy en día la inseguridad incrementa y la mayoría de las personas se hacen los de la vista gorda frente a esto, dándole baja importancia a la información suministrada; siendo está rezagada a medios de comunicación masivo, donde  la información no es congruente o  transparente. Aun así, algunas personas  quisieran saber qué pasa en sus barrios respecto a estos aspectos, basados en una fuente confiable y de fácil acceso con datos del ahora. 
 
  
 
-Tema :  
+**Tema :  
 
 Informacion y seguridad en tiempo real 
 
  
 
-Justificacion: 
+**Justificacion: 
 
 Se propone hacer un foro/web en el cual la misma comunidad habitante de los sectores  puedan leer información relacionada con los sucesos violentos o noticias que están teniendo lugar en la comuna, aparte de opciones que pueden ayudar al usuario por medio de el sitio web. 
 
  
 
-Público objetivo:  
+**Público objetivo:  
 
 personas de la comuna, y público interesado 
 
  
 
-Posibles opciones:
+**Posibles opciones:
 
 llamar a cuadrante, telefonos de emergencia , ubicar cuadrante 
 
 
-Estado del arte
+**Estado del arte
 
 Micomuna 2: Es un periódico virtual que reúne noticias de sucesos que pasan en algunos barrios de la ciudad, en su interfaz es posible publicar eventos, y consultar el cronograma de los eventos existentes, el problema real que tiene este periódico en línea es que solo se centra en algunos barrios, y pues su otro problema es que regularmente sus noticias no tienen un gran peso.
 
@@ -49,22 +49,25 @@ Micomunaguayabal: Esta es una página informativa, que busca mostrar los eventos
 
 En conclusión, existen paginas informativas, pero no se centran en todos los barrios del área metropolitana, además en estos no se ve intervención del gobierno en apoyar y en fortalecer estos canales de comunicación.
 
-Objetivo General
+**Objetivo General
+
 Desarrollar un foro/web capaz de mantener informado en tiempo real los sucesos actuales que están pasando en las comunas del área metropolitana con información suministrada por parte de los cuadrantes de cada barrio
 
-Objetivos específicos
+**Objetivos específicos
+
 1) recolección de información acerca de las comunas: como están divididas, sus barrios, sus organismos públicos dentro de esta
 2) maquetación del sitio web así como sus distribución, tecnología y características a implementar (front end)
 3) generar basado en la información recolectada en las comunas estimados de la infraestructura que se utilizara, motores de bases de datos, administración del sitio web(back end)
 4)desarrollo y despliegue del sitio web e información a la comunidad
 5)planeación para una futura escalabilidad con nuevas características 
 
-mockups: 
+**mockups:
+
 https://www.figma.com/file/60N2oQ5CSrTTQIoq12gfVB/micomuna 
 
 
 
-descrpcion de la aplicación:
+**descripcion de la aplicación:
 
  La aplicación es un medio de comunicación entre las entidades de seguridad publica, cuerpos de emergencia y prestadores de servicios a nivel metropolitano.
 
