@@ -4,13 +4,31 @@ h1{
     color: #5EA336;
     font-size: 70px;
     font-weight: bold;
+    padding-left: 10px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+    margin-left: 20px;
 }
 
 body{
     font-family: 'Kanit', sans-serif;
+    background-color: #CCD9C1;
+}
+
+aside{
+    margin-right: 5px;
+
 }
 
 div.container{
+    margin-top: 40px;
+    margin-bottom: 40px;
     border: solid;
     border-color: #5EA336;
     border-radius: 40px 40px 40px 40px;
@@ -25,6 +43,7 @@ div.container{
 
 
 div.row{
+    margin-top: 20px;
     display: flex;  
     align-items: center;  
     justify-content: center;
@@ -32,5 +51,136 @@ div.row{
 }
 
 #logo{
-    margin: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #F1F1F1;
+    
+
 }
+
+
+.contenedorgrid{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "left main rigth";
+    grid-template-columns: 38fr 100fr 50fr;
+    grid-template-rows: 1fr 5fr;
+    grid-column-gap: 20px;
+    
+    
+    
+}
+
+.left{
+    text-align: center;
+    margin-left: 10px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+.left2{
+    margin-left: 10px;
+    text-align: center;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    position: relative;
+    bottom: 40px;
+    
+}
+
+.rigth{
+    text-align: center;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    margin-right: 12px;
+
+}
+
+.right2{
+    position: relative;
+    text-align: center;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    bottom: 40px;
+    margin-right: 12px;
+}
+
+
+.main{
+    padding-bottom: 117px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+.main2{
+    position: relative;
+    bottom: 105px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    text-align: justify;
+
+}
+
+.imagenes{
+    float: left;
+    margin: 0px;
+    width: 145px;
+    height: 139px;
+    border-radius: 4px;
+    margin-left: 14px;
+    margin-right: 10px;
+    border: solid;
+}
+
+
+.imagenesderecha{
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    margin-top: 27px;
+    
+}
+
+
+
+
+.noticias{
+    
+    margin-bottom: 50px;   
+}
+
+.noticias2{
+    position: relative;
+    bottom: 64px; 
+    margin-bottom: 10px; 
+}
+
+
+
+
+
+
+.botoneslista{
+    background:#67D66E;
+    border-radius:20px;
+    width:200px;
+    height:50px;
+    color: black;
+    display:inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-color:#67D66E; 
+}
+
+.inputcomuna{
+    margin-top: 20px;
+}
+
+
+
+
+
