@@ -9,6 +9,7 @@ h1{
 
 h2{
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -66,7 +67,7 @@ div.row{
     height: 100%;
     grid-template-areas: "left main rigth";
     grid-template-columns: 38fr 100fr 50fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 250px 200px 190px;
     grid-column-gap: 20px;
     
     
@@ -88,6 +89,8 @@ div.row{
     text-align: center;
     background-color: #F1F1F1;
     border-radius: 20px;
+    margin-bottom: 20px;
+    height: 390px;
 
     
 }
@@ -110,6 +113,19 @@ div.row{
     text-align: center;
     align-items: center;
     margin-right: 12px;
+    margin-bottom: 20px;
+    width: 173px;
+    margin: auto;
+}
+
+.right3{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    margin-right: 12px;
+    width: 173px;
+    margin: auto;
 }
 
 
@@ -124,8 +140,19 @@ div.row{
     background-color: #F1F1F1;
     border-radius: 20px;
     text-align: justify;
+    margin-bottom: 20px;
 
 }
+.main3{
+
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    text-align: justify;
+
+}
+
+
+
 
 .imagenes{
     float: left;
@@ -143,7 +170,7 @@ div.row{
     width: 150px;
     height: 150px;
     border-radius: 4px;
-    margin-top: 27px;
+    margin-top: 15px;
     
 }
 
@@ -173,7 +200,7 @@ div.row{
     color: black;
     display:inline-block;
     margin-bottom: 10px;
-    margin-top: 10px;
+    
     border-color:#67D66E; 
 }
 
@@ -181,7 +208,12 @@ div.row{
     margin-top: 40px;
 }
 
+#inputinicio{
+    margin-bottom: 20px;
+}
 
-
+#insta{
+    margin-top: 5px;
+}
 
 
