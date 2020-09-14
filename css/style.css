@@ -1,0 +1,36 @@
+
+h1{
+    font-family: 'Viga', sans-serif;
+    color: #5EA336;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+div.container{
+    border: solid;
+    border-color: #5EA336;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #F1F1F1;
+}
+
+#botonregistro{
+    background-color: #5EA336;
+    border: #5EA336;;
+}
+
+
+
+div.row{
+    display: flex;  
+    align-items: center;  
+    justify-content: center;
+    
+}
+
+#logo{
+    margin: 30px;
+}
