@@ -32,6 +32,8 @@ div.container{
     margin-bottom: 70px;
     border-radius: 17px 17px 17px 17px;
     background-color: #F1F1F1;
+    border: solid;
+    border-color: #5EA336;
 }
 
 #botonregistro{
@@ -75,7 +77,7 @@ div.row{
 
 #logoprincipal{
     width: 88%;
-    padding-bottom: 20%;
+    padding-bottom: 3%;
     padding-top: 6%;
 
 }
@@ -110,23 +112,13 @@ div.row{
     border-radius: 5px;
     text-align: center;
     align-items: center;
-    height: 114%;
-
-}
-.left2{
-    margin-left: 8px;
-    text-align: center;
-    background-color: white;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    height: 390px;
-
+    height: 256%;
 
 }
 
 
 #left2adentro{
-    padding-top: 10%;
+    padding-top: 3%;
 
 }
 
@@ -137,7 +129,7 @@ div.row{
     margin-right: 12px;
     display: grid;
     align-items: center;
-    height: 130%;
+    height: 146%;
     justify-content: center;
 
 }
@@ -200,6 +192,28 @@ h4{
     text-align: justify;
 
 }
+
+
+.main2{
+
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+.main3{
+
+    background-color: white;
+    border-radius: 5px;
+    text-align: justify;
+
+}
+
+
+
+
+
 
 
 
@@ -280,6 +294,7 @@ hr{
     font-size: 20px;
     font-weight: 500;
     border-color:#5EA336;
+    margin-bottom: 10px;
 }
 
 
@@ -289,6 +304,9 @@ option{
     font-style: italic;
 }
 
+#inputinicio{
+    margin-top: 10px;
+}
 
 
 
@@ -304,6 +322,7 @@ option{
     height: 50px;
     border: 2px;
     background: #35651e;
+    margin-bottom: 10px;
 }
   .boton:before {
     content:"";
@@ -328,5 +347,6 @@ option{
     border: 2px;
     border-color: black;
     background: #35651e;
+    margin-right: 7px;
 }
 
