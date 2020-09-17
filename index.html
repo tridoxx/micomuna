@@ -9,15 +9,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Viga&display=swap" rel="stylesheet">
 
     <title>Micomuna</title>
-    
-    
-        
+
+
+
     </head>
-    
-    
-    
+
+
+
     <body>
-        <h1 id="logo">Mi comuna</h1>
+      <img src="Img/logo_micomuna.png" alt="" id="logo" srcset="">
+
 
 
             <form class="FormularioRegistro">
@@ -47,14 +48,14 @@
             <div class="row">
                 <div class="form-group col-md-3">
                   <label for="inputnacimiento">Fecha de nacimiento</label>
-                  <input type="text" class="form-control" id="inputnacimiento" placeholder="dia/mes/año">
+                  <input type="date" class="form-control" id="inputnacimiento" placeholder="dia/mes/año">
                 </div>
                 <div class="form-group col-md-3">
                   <label for="inputtel">Telefono</label>
                   <input type="text" class="form-control" id="inputtel">
                 </div>
             </div>
-            
+
             <div class="row">
             <div class="form-group col-md-3">
                 <label for="inputtypedocument">Tipo de documento</label>
@@ -78,7 +79,7 @@
 
             <div class="row">
                 <div class="form-group col-md-3">
-                    <label for="inputcomuna">Tipo de documento</label>
+                    <label for="inputcomuna">Comuna</label>
                     <select id="inputcomuna" class="form-control">
                       <option>Comuna 1</option>
                       <option>Comuna 2</option>
@@ -98,7 +99,7 @@
                     </select>
                 </div>
                 <div class="form-group col-md-3">
-                    <label for="inputbarrio">Tipo de documento</label>
+                    <label for="inputbarrio">Barrio</label>
                     <select id="inputbarrio" class="form-control">
                         <option>Barrio1</option>
                         <option>Barrio2</option>
@@ -108,10 +109,10 @@
                         <option>Barrio6</option>
                         <option>Barrio7</option>
                         <option>Barrio8</option>
-                        
+
                     </select>
                   </div>
-    
+
                 </div>
 
 
@@ -119,15 +120,15 @@
 
                 <div class="row">
                     <div class="form-group col-md-3">
-                      <label for="inputcorreo">Correo</label>
-                      <input type="text" class="form-control" id="inputcorreo">
+                      <label for="inputcorreo">Correo Electronico</label>
+                      <input type="email" class="form-control" id="inputcorreo">
                     </div>
                     <div class="form-group col-md-3">
-                      <label for="inputconfirmacorreo">Confirmar Correo</label>
-                      <input type="text" class="form-control" id="inputconfirmacorreo">
+                      <label for="inputconfirmacorreo">Confirmar Correo Electronico</label>
+                      <input type="email" class="form-control" id="inputconfirmacorreo">
                     </div>
                   </div>
-                
+
                   <div class="row">
                     <div class="form-group col-md-6">
                       <label for="inputcontra">Contraseña</label>
@@ -156,25 +157,6 @@
                 </div>
           </form>
 
-        
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-   
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </body>
