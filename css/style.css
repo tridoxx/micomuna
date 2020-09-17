@@ -19,7 +19,7 @@ h3{
 
 body{
     font-family: 'Kanit', sans-serif;
-    background-color: #CCD8C0;
+    background-color: #efefef;
 }
 
 aside{
@@ -29,47 +29,54 @@ aside{
 
 div.container{
     margin-top: 40px;
-    margin-bottom: 40px;
-    border: solid;
-    border-color: #5EA336;
-    border-radius: 40px 40px 40px 40px;
+    margin-bottom: 70px;
+    border-radius: 17px 17px 17px 17px;
     background-color: #F1F1F1;
 }
 
 #botonregistro{
     background-color: #5EA336;
-    border: #5EA336;;
+    border: #5EA336;
+    width: 100%;
+    height: 20%;
 }
 #botonregistro:before {
+
     content:"";
     position: absolute;
     top: 0px;
     left: 0px;
     width: 0px;
-    height: 100%;
+    height: 50%;
     background: rgba(255, 255, 255, 0.1);
     transition: all 1s ease;
   }
   #botonregistro:hover:before {
-  width: 100%;
+  width: 50%;
   }
 
 
 
 div.row{
     margin-top: 20px;
-    display: flex;  
-    align-items: center;  
+    display: flex;
+    align-items: center;
     justify-content: center;
-    
+
 }
 
 #logo{
-    margin: 10px;
-    border-radius: 20px;
-    background-color: white;
+    position: relative;
+    padding-left: 30%;
     margin-bottom: 20px;
-    
+
+
+}
+
+#logoprincipal{
+    width: 88%;
+    padding-bottom: 20%;
+    padding-top: 6%;
 
 }
 
@@ -79,53 +86,58 @@ div.row{
     background-color: white;
     margin-bottom: 20px;
     text-align: center;
-    
+
 
 }
 
 
 .contenedorgrid{
     display: grid;
+    padding-top: 2%;
     width: 100%;
     height: 100%;
     grid-template-areas: "left main rigth";
     grid-template-columns: 38fr 100fr 50fr;
     grid-template-rows: 250px 200px 190px;
     grid-column-gap: 20px;
-    
-    
-    
+
 }
 
 .left{
     text-align: center;
     margin-left: 10px;
     background-color: white;
-    border-radius: 20px;
-    margin-bottom: 20px;
+    border-radius: 5px;
     text-align: center;
     align-items: center;
+    height: 114%;
 
 }
 .left2{
-    margin-left: 10px;
+    margin-left: 8px;
     text-align: center;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 20px;
     height: 390px;
 
-    
+
+}
+
+
+#left2adentro{
+    padding-top: 10%;
+
 }
 
 .rigth{
     text-align: center;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-right: 12px;
-    margin-bottom: 20px;
-    display: flex;
+    display: grid;
     align-items: center;
+    height: 130%;
     justify-content: center;
 
 }
@@ -135,9 +147,8 @@ div.row{
     text-align: center;
     align-items: center;
     margin-right: 12px;
+    padding-top: 26%;
     margin-bottom: 20px;
-    width: 173px;
-    margin: auto;
 }
 
 .right3{
@@ -145,21 +156,39 @@ div.row{
     text-align: center;
     align-items: center;
     margin-right: 12px;
-    width: 173px;
     margin: auto;
+    padding-top: 73%;
 }
 
 
 .main{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-bottom: 20px;
+}
+
+
+.mainrecuperacion{
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+
+    display: grid;
+    align-items: center;
+    height: 90%;
+    justify-content: center;
+}
+
+
+h4{
+
+    text-align: center;
 }
 
 .main2{
 
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     text-align: justify;
     margin-bottom: 20px;
 
@@ -167,7 +196,7 @@ div.row{
 .main3{
 
     background-color: white;
-    border-radius: 20px;
+    border-radius: 5px;
     text-align: justify;
 
 }
@@ -192,27 +221,32 @@ div.row{
 
 
 .imagenesderecha{
-    width: 150px;
-    height: 150px;
-    border-radius: 4px;
-    margin-top: 15px;
-    
+    padding-top: 152%;
+
 }
 
+.twitter{
+    padding-top: 30%;
+    width: 317px;
+    height: 423px;
 
-.imagenesderecha:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
-.imagenesderecha {overflow:hidden;}
-
-.imagenesderecha:hover {
-    filter: opacity(.5);
+}
+hr{
+    border: 1px solid #131313;
+    width: 98%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-
+.facebook{
+    width: 317px;
+    height: 423px;
+}
 
 
 .noticias{
-    margin-top: 20px; 
-    margin-bottom: 50px;   
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .noticias:hover {
@@ -221,18 +255,23 @@ div.row{
 
 
 .noticias2{
-    
-    margin-bottom: 10px; 
+
+    margin-bottom: 10px;
+}
+
+#login{
+
+    display: flex;
+}
+
+#inputregistro{
+    transform: translateX(16%);
 }
 
 
-
-
-
-
 .botoneslista{
-    background:#5EA336;
-    border-radius:20px;
+    background:#35651e;
+    border-radius:5px;
     width:200px;
     height:50px;
     color: white;
@@ -240,40 +279,32 @@ div.row{
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: 500;
-    border-color:#5EA336; 
+    border-color:#5EA336;
 }
 
-#inputcomuna{
-    margin-top: 40px;
-    
-}
 
 option{
-    background-color:white; 
+    background-color:white;
     color: black;
-    font-style: italic;   
+    font-style: italic;
 }
 
 
 
 
-#inputinicio{
-    margin-bottom: 20px;
-}
+
 
 
 
 .boton {
-    color: #fff !important;
+    color: #fff;
     font-size: 20px;
     font-weight: 500;
-    width:200px;
-    height:50px;
-    background: #5EA336;
-    border: 2px solid;
-    border-color: #5EA336;
-    position: relative;
-  }
+    width: 200px;
+    height: 50px;
+    border: 2px;
+    background: #35651e;
+}
   .boton:before {
     content:"";
     position: absolute;
@@ -281,9 +312,21 @@ option{
     left: 0px;
     width: 0px;
     height: 100%;
-    background: rgba(255, 255, 255, 0.1);
     transition: all 1s ease;
   }
   .boton:hover:before {
-  width: 100%;
+    background-color: #5EA336;
   }
+
+
+  .boton1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    width: 134px;
+    height: 50px;
+    border: 2px;
+    border-color: black;
+    background: #35651e;
+}
+
